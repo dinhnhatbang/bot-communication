@@ -31,11 +31,9 @@ Hàm gọi Bot nói chuyện sẽ được trưng cầu ý kiến từ tất c�
 
 ## Hàm chọn sẽ trả lời gì
 
-## Chào hỏi, gọi tên nhau
+## Quá trình giao tiếp
 
-Các con Bot sẽ giao tiếp với nhau thông qua bảng mã ASCII. Mỗi con Bot sẽ đại diện cho 1 ký tự.
-
-Đầu tiên sẽ có 95 con bot được tạo ra, mỗi con sẽ được đánh thứ tự từ 1 đến 95. Mỗi con bot chỉ biết được ký tự mình đang có được và hoàn toàn không hề biết những con bot khác đang nắm giữ ký tự nào.
+Sẽ có 95 con bot được tạo ra từ bảng mã ASCII, được đánh thứ tự từ 1 đến 95 tương ứng với mỗi ký tự. Các Bot chỉ biết được ký tự mình đang có được và hoàn toàn không hề biết những con Bot khác đang nắm giữ ký tự nào.
 
 Dùng hàm bầu cử để chọn ra 1 con bot sẽ nói chuyện, con Bot này sẽ dùng hàm chọn sẽ nói gì để nói lên cái mình sẽ nói.
 
