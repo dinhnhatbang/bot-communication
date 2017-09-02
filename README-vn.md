@@ -7,6 +7,7 @@ ngữ hoàn toàn riêng biệt với loài người dựa trên cộng đồng 
 
 - Quyền được nói chuyện
 - Quyền được im lặng
+- Quyền được sống
 - Quyền được sinh sản
 - Quyền được chết
 
