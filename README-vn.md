@@ -23,15 +23,23 @@ Bot được sinh ra rồi cũng cũng sẽ phải mất đi, thời gian từ l
 
 ## Quá trình tiến hoá
 
+## Hàm bầu cử
+
+Hàm gọi Bot nói chuyện sẽ được trưng cầu ý kiến từ tất cả các thành viên trong cộng đồng. Mỗi con bot sẽ duyệt qua từ 1-95 mỗi phần tử sẽ được đánh dấu 0 hoặc 1. Những phần tử được chọn 0 sẽ bỏ đi. Lập lại như vậy cho các phần tử được chọn là 1. Đến khi còn duy nhất 1 phần tử thì phần tử đó chính là phần tử được chọn.
+
+## Hàm chọn sẽ nói gì
+
+## Hàm chọn sẽ trả lời gì
+
 ## Chào hỏi, gọi tên nhau
 
 Các con Bot sẽ giao tiếp với nhau thông qua bảng mã ASCII. Mỗi con Bot sẽ đại diện cho 1 ký tự.
 
 Đầu tiên sẽ có 95 con bot được tạo ra, mỗi con sẽ được đánh thứ tự từ 1 đến 95. Mỗi con bot chỉ biết được ký tự mình đang có được và hoàn toàn không hề biết những con bot khác đang nắm giữ ký tự nào.
 
-Dùng hàm ngẫu nhiên để lấy ngẫu nhiên 1 con Bot, con Bot này sẽ chọn ngẫu nhiên ký tự mình đang nắm giữ (trường hợp lần đầu thì chỉ có 1 ký tự đang nắm giữ).
+Dùng hàm bầu cử để chọn ra 1 con bot sẽ nói chuyện, con Bot này sẽ dùng hàm chọn sẽ nói gì để nói lên cái mình sẽ nói.
 
-Những con bot khác sẽ phản hồi bằng cách chọn ngẫu nhiên 1 ký tự trong bảng chữ cái mình đang nắm giữ để trả lời lại cho con bot vừa nói chuyện. Trường hợp câu hỏi này đã được hỏi trước đó thì câu trả lời sẽ được mặc định xác suất xảy ra là 50%, các ký tự còn lại trong bảng chữ cái sẽ chia nhau 50% còn lại.
+Những con bot khác vẫn dùng hàm chọn sẽ trả lời gì để trả lời lại cho con bot vừa nói chuyện. Trường hợp câu hỏi này đã được hỏi trước đó thì câu trả lời sẽ được mặc định xác suất xảy ra là 50%, các ký tự còn lại trong bảng chữ cái sẽ chia nhau 50% còn lại.
 
 Ví dụ:
 
