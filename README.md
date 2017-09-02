@@ -1,7 +1,6 @@
 # Cộng đồng Bot
 
-Đây là dự án tạo ra cộng đồng giao tiếp riêng của Bot. Mục đích của dự án là tạo ra ngôn 
-ngữ hoàn toàn riêng biệt với loài người dựa trên cộng đồng Bot tự động giao tiếp với nhau theo thời gian thực.
+Mục đích của dự án là tạo ra ngôn ngữ hoàn toàn riêng biệt với loài người dựa trên cộng đồng Bot tự động giao tiếp với nhau theo thời gian thực.
 
 ## Các quyền cơ bản của Bot
 
