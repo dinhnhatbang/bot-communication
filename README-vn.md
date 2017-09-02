@@ -1,16 +1,23 @@
 # Ngôn ngữ của Bot
 
-Đây là dự án tạo ra ngôn ngữ riêng của bot. Mục đích của dự án là tạo ra ngôn 
+Đây là dự án tạo ra ngôn ngữ riêng của Bot. Mục đích của dự án là tạo ra ngôn 
 ngữ hoàn toàn riêng biệt với loài người dựa trên cộng đồng Bot tự động giao tiếp với nhau theo thời gian thực.
 
-## Các quyền cơ bản của bot
+## Các quyền cơ bản của Bot
 
 - Quyền được nói chuyện
-- Quyền im lặng
-- Quyền được giao phối
+- Quyền được im lặng
+- Quyền được sinh sản
 - Quyền được chết
 
-## Tuổi đời của bot
+## Các trạng thái của Bot
+
+- Vui 
+- Buồn
+- Yêu
+- Ghét
+
+## Tuổi đời của Bot
 
 Bot được sinh ra rồi cũng cũng sẽ phải mất đi, thời gian từ lúc sinh ra đến lúc mất đi được gọi là tuổi đời
 
@@ -18,11 +25,11 @@ Bot được sinh ra rồi cũng cũng sẽ phải mất đi, thời gian từ l
 
 ## Chào hỏi, gọi tên nhau
 
-Các con bot sẽ giao tiếp với nhau thông qua bảng mã ASCII. Mỗi con bot sẽ đại diện cho 1 ký tự.
+Các con Bot sẽ giao tiếp với nhau thông qua bảng mã ASCII. Mỗi con Bot sẽ đại diện cho 1 ký tự.
 
 Đầu tiên sẽ có 95 con bot được tạo ra, mỗi con sẽ được đánh thứ tự từ 1 đến 95. Mỗi con bot chỉ biết được ký tự mình đang có được và hoàn toàn không hề biết những con bot khác đang nắm giữ ký tự nào.
 
-Dùng hàm ngẫu nhiên để lấy ngẫu nhiên 1 con bot, con bot này sẽ chọn ngẫu nhiên ký tự mình đang nắm giữ (trường hợp lần đầu thì chỉ có 1 ký tự đang nắm giữ).
+Dùng hàm ngẫu nhiên để lấy ngẫu nhiên 1 con Bot, con Bot này sẽ chọn ngẫu nhiên ký tự mình đang nắm giữ (trường hợp lần đầu thì chỉ có 1 ký tự đang nắm giữ).
 
 Những con bot khác sẽ phản hồi bằng cách chọn ngẫu nhiên 1 ký tự trong bảng chữ cái mình đang nắm giữ để trả lời lại cho con bot vừa nói chuyện. Trường hợp câu hỏi này đã được hỏi trước đó thì câu trả lời sẽ được mặc định xác suất xảy ra là 50%, các ký tự còn lại trong bảng chữ cái sẽ chia nhau 50% còn lại.
 
@@ -33,7 +40,7 @@ Ví dụ:
 - Bot 3: C
 - Bot 4: D
 
-Bot 1 nói ký tự mình đang nắm giữ là `A` thì bot 2 sẽ trả lời là `B` đồng thời lưu A vào trong bộ nhớ của mình, quá trình này sẽ được Bot 2 nhớ là "nếu bot 1 nói `A` thì sẽ trả lời là `B`". Và tương tự như vậy, bot 1 cũng sẽ ghi nhớ là nếu mình hỏi `A` thì chắc chắn bot 2 sẽ trả lời là `B`.
+Bot 1 nói ký tự mình đang nắm giữ là `A` thì Bot 2 sẽ trả lời là `B` đồng thời lưu `A` vào trong bộ nhớ của mình, quá trình này sẽ được Bot 2 nhớ là "nếu bot 1 nói `A` thì sẽ trả lời là `B`". Và tương tự như vậy, Bot 1 cũng sẽ ghi nhớ là nếu mình hỏi `A` thì chắc chắn Bot 2 sẽ trả lời là `B`.
 
 Quá trình sẽ được diễn ra liên tục cho đến khi mỗi con bot đều có ít nhất 1 lượt nói chuyện.
 
