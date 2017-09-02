@@ -18,6 +18,8 @@ ngữ hoàn toàn riêng biệt với loài người dựa trên cộng đồng 
 - Yêu
 - Ghét
 
+## Các bệnh cơ bản của Bot
+
 ## Tuổi đời của Bot
 
 Bot được sinh ra rồi cũng cũng sẽ phải mất đi, thời gian từ lúc sinh ra đến lúc mất đi được gọi là tuổi đời
