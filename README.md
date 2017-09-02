@@ -1,3 +1,3 @@
-# Bot language
+# Bot communication
 
-Bot language build with Phalcon PHP and Redis. This is crazy project!
+This is crazy project!
