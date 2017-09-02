@@ -40,7 +40,7 @@ Ví dụ:
 - Bot 3: C
 - Bot 4: D
 
-Bot 1 nói ký tự mình đang nắm giữ là `A` thì Bot 2 sẽ trả lời là `B` đồng thời lưu `A` vào trong bộ nhớ của mình, quá trình này sẽ được Bot 2 nhớ là "nếu bot 1 nói `A` thì sẽ trả lời là `B`". Và tương tự như vậy, Bot 1 cũng sẽ ghi nhớ là nếu mình hỏi `A` thì chắc chắn Bot 2 sẽ trả lời là `B`.
+Bot 1 nói ký tự mình đang nắm giữ là `A` thì Bot 2 sẽ trả lời là `B` đồng thời lưu `A` vào bảng chữ cái của mình, quá trình này sẽ được Bot 2 nhớ là "nếu Bot 1 nói `A` thì sẽ trả lời là `B`". Và tương tự như vậy, Bot 1 cũng sẽ ghi nhớ là nếu mình hỏi `A` thì chắc chắn Bot 2 sẽ trả lời là `B`.
 
 Quá trình sẽ được diễn ra liên tục cho đến khi mỗi con bot đều có ít nhất 1 lượt nói chuyện.
 
